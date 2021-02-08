@@ -1,11 +1,11 @@
 import React from "react";
-import trafficLight from "./trafficligth";
+import { TrafficLight } from "./trafficligth.js";
 
 //create your first component
 export function Home() {
 	return (
-		<div>
-			<trafficLight />
+		<div className="d-flex justify-content-center">
+			<TrafficLight />
 		</div>
 	);
 }

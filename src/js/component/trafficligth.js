@@ -1,14 +1,18 @@
 import React from "react";
 
-export function trafficLight() {
-	return (
-		<div id="traffictop">
-			<div className="vl"></div>
-			<div id="container">
-				<div className="red light" />
-				<div className="yellow light" />
-				<div className="green light" />
+export class TrafficLight extends React.Component {
+	render() {
+		return (
+			<div id="traffictop">
+				<div className="stickArea">
+					<div className="vl"></div>
+				</div>
+				<div className="container">
+					<div className="red light" />
+					<div className="yellow light" />
+					<div className="green light" />
+				</div>
 			</div>
-		</div>
-	);
+		);
+	}
 }
