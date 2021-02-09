@@ -20,6 +20,7 @@
  height: 50px;
  width: 50px;
  border-radius: 50%;
+ opacity: 0.5;
 }
 
 .red{
@@ -33,4 +34,7 @@
 .green{
     background-color: green;
     margin-bottom: 0.5rem;
+}
+.active{
+    opacity: 1;
 }
